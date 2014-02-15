@@ -13,8 +13,7 @@ This Quickstart has an accompanying blog post [How To Setup Your Own Free Mail S
 Create an OpenShift application with PHP and MySQL cartridges
 
 ```
-rhc app create roundcube php-5
-rhc cartridge add mysql -a roundcube
+rhc app create roundcube php-5.3 mysql-5.1 phpmyadmin
 cd roundcube
 ```
 
@@ -22,12 +21,6 @@ Pull the source code from this Quickstart
 
 ```
 git pull -s recursive -X theirs git://github.com/openshift-quickstart/roundcube-openshift-quickstart.git
-```
-
-Add PhPMyAdmin cartridge to manage MySQL server
-
-```
-rhc cartridge add phpmyadmin -a roundcube
 ```
 
 and import the database from a file in repository
