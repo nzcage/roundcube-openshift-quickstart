@@ -10,7 +10,7 @@ This Quickstart has an accompanying blog post [How To Setup Your Own Free Mail S
 
 ## Setup
 
-Create an OpenShift application with PHP and MySQL cartridges
+Create an OpenShift application with PHP, MySQL, and PHPMyAdmin cartridges
 
 ```
 rhc app create roundcube php-5.3 mysql-5.1 phpmyadmin
