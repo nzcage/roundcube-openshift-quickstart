@@ -6,7 +6,7 @@ Roundcube webmail...
 ...is a browser-based multilingual IMAP client with an application-like user interface. It provides full functionality you expect from an e-mail client, including MIME support, address book, folder manipulation, message searching and spell checking.
 ```
 
-This Quickstart has an accompanying blog post [How To Setup Your Own Free Mail Server](https://openshift.redhat.com/community/blogs/free-paas-email-server-with-roundcube).
+This Quickstart has an accompanying blog post [How To Setup Your Own Free Mail Server](https://www.openshift.com/blogs/free-paas-email-server-with-roundcube).
 
 ## Setup
 
